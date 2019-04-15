@@ -17,7 +17,7 @@ public class HelloWorld {
 
 	//	System.out.println("Wynik... dla " + i + " = " + h.fibo(i));
 
-		System.out.println("\nWynik...2 dla " + i + " = " + h.fibo2(i));
+		//System.out.println("\nWynik...2 dla " + i + " = " + h.fibo2(i));
 
 	}
 
