@@ -15,9 +15,9 @@ public class HelloWorld {
 		int i = Integer.parseInt(s);
 		System.out.printf("Liczba to %d .%n", i);
 
-		System.out.println("Wynik dla " + i + " = " + h.fibo(i));
+		System.out.println("Wynik... dla " + i + " = " + h.fibo(i));
 
-		System.out.println("\nWynik2 dla " + i + " = " + h.fibo2(i));
+		System.out.println("\nWynik...2 dla " + i + " = " + h.fibo2(i));
 
 	}
 
