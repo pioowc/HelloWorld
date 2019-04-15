@@ -15,13 +15,13 @@ public class HelloWorld {
 		int i = Integer.parseInt(s);
 		System.out.printf("Liczba to %d .%n", i);
 
-	//	System.out.println("Wynik... dla " + i + " = " + h.fibo(i));
+		System.out.println("Wynik... dla " + i + " = " + h.fibo(i));
 
-		//System.out.println("\nWynik...2 dla " + i + " = " + h.fibo2(i));
+		System.out.println("\nWynik...2 dla " + i + " = " + h.fibo2(i));
 
 	}
 
-	private int fibo(int n) {
+	int fibo(int n) {
 		int res = -1;
 
 		if (n == 0 || n == 1)
@@ -33,7 +33,7 @@ public class HelloWorld {
 		return res;
 	}
 
-	private int fibo2(int n) {
+	int fibo2(int n) {
 
 		if (n == 0 || n == 1)
 			return n;
